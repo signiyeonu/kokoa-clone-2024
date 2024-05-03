@@ -3,25 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kokoa Talk</title>
+    <title>Welcome to Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
-            <div class="status-bar__column">
-                <span>No Service</span>
-                <i class="fa-solid fa-wifi"></i>
-            </div>
-            <div class="status-bar__column">
-                <span>12:31</span>
-            </div>
-            <div class="status-bar__column">
-                <span>100%</span>
-                <i class="fa-solid fa-battery-full"></i>
-                <i class="fa-solid fa-bolt"></i>
-            </div>
-    </div>
-    <script src="https://kit.fontawesome.com/a8ac00b220.js" 
-    crossorigin="anonymous">
-    </script>
-</body>
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>12:31</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+</div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+        <p class="welcome-header__text">If you have a Kokoa Account, lpg in with your email or phone number
+        </p>
+    </header>
+
+    <form id="login-form">
+        <input type="text" placeholder="Email or phone number" />
+        <input type="password" placeholder="Password" />
+        <input type="submit" value="Log in" />
+        <a href="#">Find Kokoa Account or Password</a>
+    </form>
+
+            
+    <script 
+        src="https://kit.fontawesome.com/a8ac00b220.js" 
+        crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
