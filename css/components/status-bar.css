@@ -2,11 +2,12 @@
     display: flex;
     justify-content: center;
     padding:5px 3px;
-
 }
+
 .status-bar__column {
     width: 33%
 }
+
 .status-bar___column:first-child span {
 margin-right: 5px;
 }
@@ -15,6 +16,7 @@ margin-right: 5px;
     display: flex;
     justify-content: center;
 }
+
 .status-bar__column:last-child {
     display: flex;
     justify-content: flex-end;
